@@ -1,0 +1,684 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Page 1 */
+
+.page1 {
+  position: relative;
+  background: url("/Asset/Images/Part1.png");
+  min-height: 100vh;
+  background-size: cover;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  z-index: 1;
+}
+
+.page1 h3 {
+  font-family: "League Script";
+  color: white;
+  font-size: 3rem;
+  margin-top: 2rem;
+  font-weight: lighter;
+}
+.page1 h1 {
+  font-family: "League Script";
+  font-size: 10rem;
+  color: white;
+  font-weight: lighter;
+  letter-spacing: 1rem;
+}
+
+.h1home {
+  margin-top: rem;
+}
+
+.hometext {
+  padding: 9rem;
+  padding-top: 9rem;
+}
+
+/* Page 1 */
+
+/* Page 2 */
+
+.page2 {
+  position: relative;
+  background-color: white;
+  min-height: 150vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+}
+
+.box {
+  margin-bottom: 30rem;
+  position: absolute;
+  z-index: 3;
+  background-color: rgb(247, 247, 247);
+  width: 950px;
+  height: 1000px;
+  box-shadow: 10px 10px 20px -5px rgba(255, 195, 0, 0.15);
+  border-radius: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.textpage2 {
+  font-family: "Comfortaa";
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.textpage2 h1,
+h3 {
+  color: #ae8e24;
+}
+
+.textpage2 h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #999999;
+}
+.textpage2 h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.fototext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10rem;
+  margin-top: 2rem;
+}
+
+.foto {
+  width: 300px;
+  height: 300px;
+  background-color: #999999;
+  border-radius: 100%;
+}
+
+.foto img {
+  width: 300px;
+  height: 300px;
+  background-color: #999999;
+  border-radius: 100%;
+}
+
+.fototext h1 {
+  font-family: "Allura";
+  font-size: 4rem;
+  font-weight: lighter;
+  margin-top: 2rem;
+}
+
+.fototext h2 {
+  font-family: "Comfortaa";
+  font-size: 1.2rem;
+}
+.fototext h3 {
+  font-family: "Comfortaa";
+}
+
+.icon box-icon {
+  width: 35px; /* Lebar ikon */
+  height: 35px; /* Tinggi ikon */
+  fill: #ae8e24;
+  transition: all 0.3s; /* Ubah warna ikon */
+}
+
+.icon box-icon:hover {
+  fill: #f0bc21; /* Ubah warna ikon */
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.galery button {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 150px;
+  height: 2.5rem;
+  border: none;
+  background-color: #ae8e24;
+  border-radius: 0.3rem;
+  font-family: "Allura";
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: white;
+  transition: all 0.3s;
+  margin-bottom: 8rem;
+}
+
+.galery button:hover {
+  background-color: black;
+  color: #f0bc21;
+}
+
+.posistionbox {
+  margin-bottom: 2.5rem;
+}
+
+.pembatas1 {
+  margin-top: 80rem;
+}
+
+/* Page 2 */
+
+/* Page3 */
+.page3 {
+  min-height: 235vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Comfortaa";
+  background: white;
+}
+
+.dalam {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  margin-top: 10rem;
+}
+
+.dalam h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ae8e24;
+}
+.dalam h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #808080;
+}
+
+.gabungan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.gabungan h1,
+h3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: #999999;
+}
+
+.salam {
+  display: flex;
+  gap: 3rem;
+  font-family: "Allura";
+  font-size: 1.5rem;
+}
+
+.countdown-container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+#countdown {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.time-box {
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px #ae8e24;
+}
+
+.time-box span {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.time-box small {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.maps {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotoresepsi {
+  display: flex;
+  gap: 2rem;
+}
+
+.fotonya1 {
+  width: 290px;
+  height: 450px;
+  border-radius: 1rem;
+  background: url("/Asset/Images/Group13.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.fotonya1 h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+.fotonya1 h3 {
+  color: white;
+}
+.fotonya1 h4 {
+  color: white;
+}
+.fotonya1 h5 {
+  color: white;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.fotonya1 button {
+  width: 15rem;
+  height: 2.8rem;
+  color: white;
+  font-weight: lighter;
+  margin-top: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #caa838;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: white;
+}
+
+.fotonya2 {
+  width: 290px;
+  height: 450px;
+  border-radius: 1rem;
+  background: url("/Asset/Images/Group\ 11.png");
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.fotonya2 h1 {
+  color: white;
+  font-size: 1.5rem;
+}
+.fotonya2 h3 {
+  color: white;
+}
+.fotonya2 h4 {
+  color: white;
+}
+.fotonya2 h5 {
+  color: white;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+.fotonya2 button {
+  width: 15rem;
+  height: 3rem;
+  color: white;
+  font-weight: lighter;
+  margin-top: 2.5rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: #caa838;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: white;
+}
+/* Page3 */
+
+/* Page4 */
+
+.page4 {
+  min-height: 130vh;
+  font-family: "Comfortaa";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.page4 h1 {
+  color: #f0bc21;
+}
+
+.page4 h3 {
+  margin-top: 4rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.page4 h2 {
+  margin-top: 3rem;
+  color: #808080;
+  font-size: 20px;
+}
+
+.foto-nikah {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.pembatas2 {
+  margin-top: 10rem;
+}
+
+.bungkuspg4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14rem;
+}
+
+.bungkuspg4 h2 {
+  margin-top: 7rem;
+}
+/* Page4 */
+
+/* Page 5 */
+
+.page5 {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Comfortaa";
+}
+
+.digital-wallet {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.header h2 {
+  color: #333;
+  margin: 0;
+}
+
+.header h3 {
+  color: #777;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1.5rem;
+  margin-top: 1rem;
+}
+
+.header {
+  justify-content: start;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wallet-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+.wallet-container2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  align-items: start;
+  justify-content: start;
+  margin-top: 2rem;
+}
+
+.rekening-box {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s, 0.2s;
+}
+
+.rekening-box2 {
+  background: #f5f5f5;
+  border-radius: 8px;
+  padding: 0.8rem 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s, 0.2s;
+}
+
+.rekening-box:hover {
+  background: #dce7ff;
+  transform: translateY(-2px);
+}
+.rekening-box2:hover {
+  background: #dce7ff;
+  transform: translateY(-2px);
+}
+
+.rekening-box p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.button button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background: #2a5298;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s, transform 0.2s;
+}
+
+button img {
+  width: 20px;
+  height: 20px;
+}
+
+.gift {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 5rem;
+}
+
+.Ofline {
+  width: 550px;
+  height: 300px;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin-bottom: 4rem;
+}
+
+.Ofline h1 {
+  font-size: 1.5rem;
+}
+
+.Ofline button {
+  width: 250px;
+  height: 3rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.text-of {
+  padding: 2rem;
+}
+
+/* Page 5 */
+
+/* Page6 */
+
+.page6 {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: "Comfortaa";
+}
+
+.box-pesan {
+  width: 700px;
+  height: 600px;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  flex-direction: column;
+}
+
+.page6 h1 {
+  text-align: center;
+}
+
+.input1 input {
+  width: 500px;
+  height: 2rem;
+  border: none;
+  border: 1px solid #e6e6e6;
+  background-color: #f8f7f7;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.input2 input {
+  width: 500px;
+  height: 10rem;
+  border: 1px solid #e6e6e6;
+  background-color: #f8f7f7;
+  border-radius: 5px;
+  padding-left: 1rem;
+  font-size: 16px;
+  font-family: "Comfortaa", sans-serif;
+  text-align: left;
+  padding: 1rem;
+}
+
+.kirim button {
+  width: 150px;
+  height: 3rem;
+  border: none;
+  background-color: #e382d3;
+  border-radius: 10px;
+  font-family: "Comfortaa";
+  color: white;
+}
+
+.inputan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: start;
+}
+
+.box-pesan h1 {
+  margin-top: 5rem;
+}
+
+
+/* Page6 */
+
+
+.pembatas3 {
+  margin-top: 15rem;
+} 
+.pembatas3 h1 {
+  margin-top: 10rem;
+  font-family: 'Allura';
+  font-size: 7rem;
+  font-weight: lighter;
+  text-align: center;
+}
+
