@@ -1,4 +1,4 @@
-b; // script.js
+ // script.js
 
 // Set the target date and time
 const targetDate = new Date("2024-11-29T00:00:00").getTime();
