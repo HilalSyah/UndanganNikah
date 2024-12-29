@@ -1,7 +1,7 @@
- // script.js
+// script.js
 
 // Set the target date and time
-const targetDate = new Date("2024-11-29T00:00:00").getTime();
+const targetDate = new Date("2025-10-29T00:00:00").getTime();
 
 // Update the countdown every second
 const countdownInterval = setInterval(() => {
